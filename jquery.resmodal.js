@@ -75,7 +75,7 @@ function ResponsiveModalDialog(argsArray) {
 
     /* Respond to escape (27) and close the dialog */
     jQuery('body').keyup(function(e) {
-      if(e.which===27){ closeModal }
+      if(e.which===27){ closeModal() }
     });
 
 
